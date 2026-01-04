@@ -1,5 +1,8 @@
 score = 0
 print("Welcome to the quiz! I will ask you 5 trivia questions.")
+x = input("Would you like to play? ")
+if x.lower() != "yes":
+    quit()
 q1 = input("Who was Robin Hood's Second in command? ").lower().strip()
 if q1 in ["little john", "john"]:
     score += 1
