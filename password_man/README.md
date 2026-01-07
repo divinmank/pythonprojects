@@ -1,0 +1,1 @@
+This program organises and stores all your passwords. These passwords are encrypted then stored.
